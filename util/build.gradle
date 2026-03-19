@@ -1,16 +1,4 @@
-plugins {
-    id 'java'
-}
-
-// This disables the "executable jar" and enables the "standard jar"
-bootJar {
-    enabled = false
-}
-
-jar {
-    enabled = true
-}
-
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.slf4j:slf4j-api'
 }

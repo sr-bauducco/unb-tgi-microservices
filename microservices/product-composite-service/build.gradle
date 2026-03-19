@@ -6,11 +6,6 @@ plugins {
 group = 'unb.tgi.microservices.composite.product'
 version = '1.0.0-SNAPSHOT'
 
-java {
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
-	}
-}
 
 repositories {
 	mavenCentral()
