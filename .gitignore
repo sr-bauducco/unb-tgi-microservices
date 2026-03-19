@@ -1,0 +1,34 @@
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java / IDEs
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse (Old OSGi leftovers)
+.settings/
+.project
+.classpath
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# OS Specific
+.DS_Store
+thumbs.db
+
+# Docker
+.docker/
